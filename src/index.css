@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 22px;
+}
+body{
+  min-height: 100vh;
+  font-family: sans-serif;
+
+}
+form{
+  width: 100%;
+}
+button{
+  width: 33.33%;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+button.selected{
+  background-color: black;
+  color: white;
+}
+ul{
+  
+  margin-top: 0rem;
+  padding: 0;
+}
+li{
+    margin-bottom: 0rem;
+    list-style: none;
+}
+.table-container{
+  width: 100%;
+  overflow-y: auto;
+  padding-top: 52px;
+
+}
+
+td{
+  border: 1px solid black;
+  
+}
+.id{
+  min-width: 40px;
+  text-align: center;
+}
+.name{
+  min-width: 130px;
+}
+.username{
+ min-width: 200px;
+}
+.email{
+  min-width: 300px;
+ 
+}
+.address{
+ 
+  min-width: 490px;
+}
+.phone{
+ 
+  min-width: 160px;
+}
+.website{
+  
+  min-width: 160px;
+}
+.company{
+  
+  min-width: 400px;
+}
